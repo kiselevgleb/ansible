@@ -11,3 +11,6 @@
 Prod:
 centos7 "msg": "el"
 ubuntu  "msg": "deb"
+
+docker run --name ubuntu -d pycontribs/ubuntu:latest sleep 600000
+docker run --name centos7 -d pycontribs/centos:7 sleep 600000
